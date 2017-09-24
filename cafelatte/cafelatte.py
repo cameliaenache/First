@@ -12,7 +12,7 @@ class Cafelatte(Coffee):
         self.milk = milk
 
     def prepare_coffee(self):
-        cantitate_totala_cafea = 3*self.coffee_spoons + 2*self.sugar + 5*self.water + self.milk
+        cantitate_totala_cafea = super().prepare_coffee() + self.milk
         return cantitate_totala_cafea
 
     def prepare_time_coffee(self):
