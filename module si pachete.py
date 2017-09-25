@@ -1,5 +1,5 @@
-from coffee.fifi import greater_than
+from new_coffee.fifi import greater_than
 from dada.lala import concatenate_list
 
-# import coffee
-# from coffee import tea as t
+# import new_coffee
+# from new_coffee import tea as t

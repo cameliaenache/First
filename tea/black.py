@@ -1,4 +1,4 @@
-from coffee.fifi import greater_than
+from new_coffee.fifi import greater_than
 
 if __name__ == '__main__':
     n = int(input('Introduceti un numar:'))
