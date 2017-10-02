@@ -12,8 +12,8 @@ class Cafelatte(Coffee):
         self.milk = milk
 
     def prepare_coffee(self):
-        cantitate_totala_cafea = super().prepare_coffee() + self.milk
-        return cantitate_totala_cafea
+        cafelatte_quantity = super().prepare_coffee() + self.milk
+        return cafelatte_quantity
 
     def prepare_time_coffee(self):
         time_to_prepare = math.pi*math.sin(self.coffee_spoons) + math.cos(self.sugar) + self.water + 2 * self.milk
