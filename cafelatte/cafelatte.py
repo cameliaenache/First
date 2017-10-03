@@ -17,7 +17,8 @@ class Cafelatte(Coffee):
         return cafelatte_quantity
 
     def prepare_time_coffee(self):
-        time_to_prepare = math.pi*math.sin(self.coffee_spoons) + math.cos(self.sugar) + self.water + 2 * self.milk
+        time_to_prepare = math.pi*math.sin(self.coffee_spoons) \
+                          + math.cos(self.sugar) + self.water + 2 * self.milk
         print(f'The time to prepare your cafelatte is: {time_to_prepare}')
 
     def energy(self):
