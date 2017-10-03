@@ -1,5 +1,6 @@
-from coffee_time.coffee import Coffee
 import math
+from coffee_time.coffee import Coffee
+
 
 
 class Cafelatte(Coffee):
